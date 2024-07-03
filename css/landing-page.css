@@ -43,7 +43,7 @@ p {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/sekce_uvod.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -71,7 +71,9 @@ p {
 
 @media(max-width:767px) {
     .intro-message {
-        padding-bottom: 15%;
+        /* padding-bottom: 15%; */
+        padding-bottom: 8%;
+        padding-top: 37%;
     }
 
     .intro-message > h1 {
@@ -91,6 +93,14 @@ p {
     .intro-divider {
         width: 100%;
     }
+}
+
+.intro-message { 
+    padding-top: 22%; 
+    padding-bottom: 18%;
+}
+.intro-message > h1 { 
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .network-name {
